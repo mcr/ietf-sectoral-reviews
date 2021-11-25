@@ -1,0 +1,74 @@
+Subject: RtgDir Last Call review: draft-ietf-lsr-isis-flood-reflection-05
+
+Hello,
+
+I have been selected as the Routing Directorate reviewer for this draft. The
+Routing Directorate seeks to review all routing or routing-related drafts as
+they pass through IETF last call and IESG review, and sometimes on special
+request. The purpose of the review is to provide assistance to the Routing
+ADs. For more information about the Routing Directorate, please see
+​http://trac.tools.ietf.org/area/rtg/trac/wiki/RtgDir
+
+Although these comments are primarily for the use of the Routing ADs, it
+would be helpful if you could consider them along with any other IETF Last
+Call comments that you receive, and strive to resolve them through discussion
+or by updating the draft.
+
+Document: draft-ietf-lsr-isis-flood-reflection-05
+Reviewer: Michael Richardson
+Review Date: 2021-11-25
+IETF LC End Date: 2021-12-17
+Intended Status: Standards Track
+
+Summary:
+
+This document is basically ready for publication but has nits that should be considered prior to publication.
+
+(As a person with little ISIS knowledge, but BGP experience, I was able to pick
+things up. Good Job!)
+
+
+Comments:
+
+The use of _L1_/_L2_ is an ISIS terminology, which goes back to RFC1195, I found.
+Any reader who is not intimate with ISIS won't know this terminology, which
+in RFC1195 is "Level 1" and "Level 2", so please add this to the glossary,
+and/or reference 1195.
+
+Major Issues:
+
+No major issues found.
+
+Minor Issues:
+
+I prefer to have the Introduction tell me something about the problem space
+before the Glossary floods (pun intended) me with terms, but perhaps document
+structure is different in LSR.
+
+Please label the diagram better:
+      Figure 1: _Example Topology_
+      -> _Example Topology of attempt to extend L2 with L1_
+
+or something like that.  I think it's the thing that doesn't work.
+Have you tried running goat on this diagram?  Would look nice in SVG.
+
+Figure 3 does nothave an R22, but it is mentioned in the paragraph on page 6.
+
+Section 4: there are only three bytes in the first line. This is surprising.
+        Same in section 5. Maybe something about ISIS stuff I don't know.
+   I would have put sections 4,5,6,7 into a Section "Protocol Extensions", but
+   that's just me.
+
+Section 9: what happens if the MUSTs on Cluster ID are violated?
+        What is the defensive situation?  Does this force flag days?
+
+On the whole, I wonder if this draft hasn't really created an "L3" area, and
+calling it that might lead to a clearer situation.
+
+I'm not sure that I agree with _Security Considerations_.
+If there are tunnels everywhere in this core, doesn't this present new
+opportunities to impersonate devices?
+
+Nits:
+
+I found no obvious nits

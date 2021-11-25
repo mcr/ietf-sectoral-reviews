@@ -1,0 +1,57 @@
+To: rtg-ads@ietf.org
+Cc: rtg-dir@ietf.org, draft-ietf-mpls-sfl-framework.all@ietf.org, mpls@ietf.org
+Subject: RtgDir review: draft-ietf-mpls-sfl-framework-06
+
+Hello,
+
+I have been selected as the Routing Directorate reviewer for this draft. The
+Routing Directorate seeks to review all routing or routing-related drafts as
+they pass through IETF last call and IESG review, and sometimes on special
+request. The purpose of the review is to provide assistance to the Routing
+ADs. For more information about the Routing Directorate, please see
+​http://trac.tools.ietf.org/area/rtg/trac/wiki/RtgDir
+
+Although these comments are primarily for the use of the Routing ADs, it
+would be helpful if you could consider them along with any other IETF Last
+Call comments that you receive, and strive to resolve them through discussion
+or by updating the draft.
+
+Document: draft-ietf-mpls-sfl-framework
+Reviewer: Michael Richardson
+Review Date: 2020-01-05
+IETF LC End Date: unknown
+Intended Status: Informational
+
+Summary:
+        This document is basically ready for publication, but has nits that should be
+        considered prior to publication.
+
+Comments:
+        This document is clearly written and easy to understand.
+        I would have preferred to have a stronger link back to the requirements given
+        in RFC8372.  I see how no significant data-plane changes are required on
+        intermediate routers.  It would be nice to be sure that they are also
+        minimized at the edges.  Are current OAM mechanisms able to obtain sufficient
+        granalarity in latency to collect the right data?
+
+        Given that no IANA actions are required, and no mechanisms are described to
+        collect the data, or allocate the SFLs, I understand why this is an
+        Informational document.  I don't see how it will contribute to better
+        interoperation.  Do we even need to publish this?
+
+Major Issues:
+        No major issues found
+
+Minor Issues:
+
+section 3:
+        "By some method outside the scope of this text, two labels"
+
+It seems that there might be significant operational and/or privacy issues
+with this assumption.  It would be good if the reader had some idea of where
+to look for a protocol which would be easily adapted to this need.
+
+Nits:
+I think that starting the abstract with [RFCxxxx] may not be accepted by the
+RFC-editor.  Maybe a single sentence summary is needed.
+
