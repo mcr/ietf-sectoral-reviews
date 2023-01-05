@@ -140,3 +140,6 @@ Reviews:
   Subject: [Last-Call] Artart last call review of draft-ietf-opsawg-service-assurance-architecture-11
   Some NITS and language complaints.
 
+
+Version v13 was posted 2023-01-03 with changes for Lars, Eric, Roman, and
+review by Christian.

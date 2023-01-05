@@ -140,3 +140,14 @@ no.
 There are only YANG module registrations.
 
 DISCUSSES: Rob Wilton.
+
+
+CC: tbray@textuality.com, mt@lowentropy.net, opsawg@ietf.org
+Date: Tue, 22 Nov 2022 17:15:58 +0000
+Archived-At: <https://mailarchive.ietf.org/arch/msg/opsawg/qLBk9slF4CTrrpJYPvIqUG6VRAc>
+
+The designated experts confirmed.
+
+Version v11 was posted 2023-01-03 with changes for Eric, Paul,
+
+
