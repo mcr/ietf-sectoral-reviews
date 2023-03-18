@@ -1,0 +1,79 @@
+Subject: RtgDir Early review: draft-ietf-ccamp-layer1-types-1 draft-ietf-ccamp-otn-topo-yang
+
+Hello
+
+I have been selected to do a routing directorate “early” review of
+draft-ietf-ccamp-otn-topo-yang-16.html and a last-call review of
+draft-ietf-ccamp-layer1-types-1.
+
+I think that this is because the first document depends upon the second
+document, and the second document is being advanced in order to be ready for
+it to be included on other dochuments.
+
+The routing directorate will, on request from the working group chair,
+perform an “early” review of a draft before it is submitted for publication
+to the IESG. The early review can be performed at any time during the draft’s
+lifetime as a working group document. The purpose of the early review depends
+on the stage that the document has reached.
+
+For more information about the Routing Directorate, please
+    see ​http://trac.tools.ietf.org/area/rtg/trac/wiki/RtgDir
+    which should now be somewhere in the new wiki!
+
+Document: draft-ietf-ccamp-layer1-types-15
+Reviewer: Michael Richardson
+Review Date: 2023-03-17
+Intended Status: standards track
+
+Summary:
+
+This document is basically ready for publication, but has nits that should be
+considered prior to being submitted to the IESG.
+
+Comments:
+
+I found the document easy to read and understandable.
+The last GPON stuff I did was in 2010, so I don't really know the details of
+the technology anymore.
+
+The interspersing of text into the YANG-tree output is an interesting way to
+do things.  I was concerned as I read that this might mean that description
+in the YANG itself might be weak, and I found this to be the case.  I don't
+have a good answer as to whether detailed text in the YANG module is better
+or worse.
+
+Nits:
+
+Section 4.2 has some odd formatting for the definition list, which I'm sure
+the RPC will clean up.
+
+
+Document: draft-ietf-ccamp-otn-topo-yang-16
+Reviewer: Michael Richardson
+Review Date: 2023-03-17
+Intended Status: standards track
+
+Summary:
+
+I found the document rather difficult to read.
+While I had just read layer1-types, and there is a nice Figure 1, then I saw
+section 3, and my eyes blurred.
+
+Comments:
+
+I don't think that the YANG Tree display adds anything to the document as is.
+Maybe if it had a softer walk-through like in layer1-types it would be more
+useful.
+
+I read the YANG, and it's among the most complex I have ever read.
+
+I didn't know augment took +, and there are too many dependancies for me to
+understand trivially what any of this code is doing.   That doesn't mean it's
+wrong, rather than it's unlikely that anyone who is not very very deeply
+steeped in this content will be able to make any determination as to whether
+it's correct.
+
+Nits:
+
+None that I saw.
+
