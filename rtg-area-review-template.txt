@@ -1,0 +1,45 @@
+To: foo-wg-chairs@…; draft-foo-name.all@…;
+Cc: rtg-dir@…; foo-wg-mailing-list;
+Subject:
+
+RtgDir Early review: draft-foo-name-version.txt
+Hello
+
+I have been selected to do a routing directorate “early” review of this draft.
+​https://datatracker.ietf.org/doc/draft-foo-name/
+
+The routing directorate will, on request from the working group chair, perform an “early” review of a draft before it is submitted for publication to the IESG. The early review can be performed at any time during the draft’s lifetime as a working group document. The purpose of the early review depends on the stage that the document has reached.
+
+<case 1> As this document has recently been adopted by the working group, my focus for the review is on providing a new perspective on the work, with the intention of catching any issues early on in the document's life cycle.
+
+<case 2> As this document is in working group last call, my focus for the review was to determine whether the document is ready to be published. Please consider my comments along with the other working group last call comments.
+
+<case 3> If neither of the above describes the circumstances of the review, then write a brief summary of the reasons for and purpose of the review here (get this from the WG chair if you are not sure).
+
+For more information about the Routing Directorate, please see ​http://trac.tools.ietf.org/area/rtg/trac/wiki/RtgDir
+
+Document: draft-name-version.txt
+Reviewer: your-name
+Review Date: date
+Intended Status: copy-from-I-D
+
+Summary:
+Choose from this list...
+
+No issues found. This documents is ready to proceed to the IESG.
+This document is basically ready for publication, but has nits that should be considered prior to being submitted to the IESG.
+I have some minor concerns about this document that I think should be resolved before it is submitted to the IESG.
+I have significant concerns about this document. It needs more work before being submitted to the IESG.
+Comments:
+
+Please supply an overview of the draft quality and readability.
+Include any issues you've spotted, and whether you think these are major blocking issues or comments about clarity or technical accuracy.
+Include any questions you have on points that are unclear or seem ambiguous.
+Include anything else that you think will be helpful toward understanding your review.
+Give as much context information as possible with your comments (e.g., section numbers, paragraph counts).
+Nits:
+
+Nits are editorial or layout items. They are things that would ideally be resolved before publication to make the document more readable.
+It is not necessary or expected for you to look for this type of issue, or write up an exhaustive list of them, in an early review. Document quality at the early review stage is often quite rough, and raising nits at this stage can be an inefficient use of your time. However, if you have recorded them anyway, you may provide them in the review for the benefit of the authors.
+Please try to avoid raising esoteric questions of English usage. The RFC Editor will spot these, and it is not a wise use of time to discuss these things.
+If you have no nits to report, please leave this section out.
