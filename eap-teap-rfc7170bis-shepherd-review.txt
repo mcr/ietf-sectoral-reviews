@@ -1,5 +1,5 @@
 Document Shepherd Write-Up for Group Documents
-DATE: 2023-08-17
+Write-up DATE: 2023-08-22
 
 Document History
 >Does the working group (WG) consensus represent the strong concurrence of a
@@ -56,22 +56,21 @@ No YANG.
 >final version of the document written in a formal language, such as XML code,
 >BNF rules, MIB definitions, CBOR's CDDL, etc.
 
-Some nits remain.
+Nits are dealt with.
 
 >Document Shepherd Checks
 >Based on the shepherd's review of the document, is it their opinion that this
 >document is needed, clearly written, complete, correctly designed, and ready
 >to be handed off to the responsible Area Director?
 
-It's clearly written, but is not quite ready (2023-08-17) for the AD.
-The document is in WGLC at the time of this writing.
+The document quality is now as good as it can be.
 
 >What type of RFC publication is being requested on the IETF stream (Best
 >Current Practice, Proposed Standard, Internet Standard,
 >Informational, Experimental or Historic)? Why is this the proper type
 >of RFC? Do all Datatracker state attributes correctly reflect this intent?
 
-Intended RFC status has not been set in DT yet.
+Intended RFC status is now set to Proposed Standard.
 
 >Have reasonable efforts been made to remind all authors of the intellectual
 >property rights (IPR) disclosure obligations described in BCP 79? To
@@ -79,7 +78,7 @@ Intended RFC status has not been set in DT yet.
 >not, explain why. If yes, summarize any relevant discussion, including links
 >to publicly-available messages when applicable.
 
-No IPR.
+No IPR claimed.
 
 >Has each author, editor, and contributor shown their willingness to be
 >listed as such? If the total number of authors and editors on the front page
@@ -90,7 +89,7 @@ Yes.
 >Should any informative references be normative or vice-versa? See the IESG
 >Statement on Normative and Informative References.
 
-Working on updating that.
+All seem correct now.
 
 >List any normative references that are not freely available to anyone. Did
 >the community have sufficient access to review any such normative
