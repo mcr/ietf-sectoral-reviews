@@ -32,7 +32,8 @@ document mostly seeks to address.
 > Have a significant number of potential implementers indicated
 > plans to implement?
 
-Yes.
+* Juniper
+* Cisco
 
 >Additional Reviews
 >Do the contents of this document closely interact with technologies in other
