@@ -34,6 +34,8 @@ document mostly seeks to address.
 
 * Juniper
 * Cisco
+* Radiator Software
+* Windows 11 build 19041+
 
 >Additional Reviews
 >Do the contents of this document closely interact with technologies in other
