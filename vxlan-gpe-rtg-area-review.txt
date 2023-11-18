@@ -1,0 +1,56 @@
+To: nvo3-wg-chairs@ietf.org; draft-ietf-nvo3-vxlan-gpe.all@ietf.org;
+Cc: rtg-dir@ietf.org; nvo3@ietf.org;
+Subject: RtgDir Early review: draft-ietf-nvo3-vxlan-gpe
+
+Hello
+
+I have been selected to do a routing directorate “early” review of this draft.
+​https://datatracker.ietf.org/doc/draft-ietf-nvo3-vxlan-gpe/
+
+The routing directorate will, on request from the working group chair,
+perform an “early” review of a draft before it is submitted for publication
+to the IESG. The early review can be performed at any time during the draft’s
+lifetime as a working group document. The purpose of the early review depends
+on the stage that the document has reached.
+
+The document is not yet in WGLC, and has not been recently adopted.
+It appears that the document has been revised since the previous RtgDir
+review at:
+   https://datatracker.ietf.org/doc/review-ietf-nvo3-vxlan-gpe-02-rtgdir-early-frost-2016-07-07/
+
+Document: draft-ietf-nvo3-vxlan-gpe-13
+Reviewer: your-name
+Review Date: date
+Intended Status: copy-from-I-D
+
+Summary: This document is basically ready for publication, but has nits that should be considered prior to being submitted to the IESG.
+
+Comments:
+
+I found the following minor issues.
+
+} Instance Bit (I bit):
+} The I bit MUST be set to indicate a valid VNI.
+
+This bit is part of RFC7348, so it ought to be described in section 2.
+Thank you for the recap!
+
+} Version (Ver):
+} Indicates VXLAN-GPE protocol version. The initial version is 0. If a
+} receiver does not support the version indicated it MUST drop the packet.
+
+It seems that since the previous version had these as R bits, and they are
+now Ver bits, and they were set to 0 before, that means that this is an
+RFC7348 packet.  So this protocol should be version -01.
+
+3.4 a reference for how to process OAM packets would be helpful.
+
+4.2 is often undeployale if larger MTUs can not be accomodated.
+It would be nice if VXLAN-GPE supported fragmentation in some fashion.
+This is particularly relevant if IPsec would be used for security.
+This document does suffer from "Just Use IPsec" (rfc5406)
+
+Nits: none noticed.
+
+
+
