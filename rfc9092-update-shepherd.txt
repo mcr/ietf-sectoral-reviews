@@ -1,5 +1,6 @@
 Document Shepherd Write-Up for Group Documents:  draft-ietf-opsawg-9092-update-06
-This version is dated 4 July 2022.
+This template is dated 4 July 2022.
+The is VERSION 1.0 of the shepherd write-up, from 2023-11-27.
 
 Document History
 > Does the working group (WG) consensus represent the strong concurrence of a
