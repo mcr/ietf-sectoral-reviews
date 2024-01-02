@@ -2,8 +2,9 @@
 Standard, Informational, Experimental, or Historic)? Why is this the proper
 type of RFC? Is this type of RFC indicated in the title page header?
 
-draft-ietf-anima-grasp-distribution-07 Standards Track is indicated in the heading.
-The document Updates *Extends* RFC8990, and should say so.
+draft-ietf-anima-grasp-distribution-09 is now Experimental.
+
+** The document Updates *Extends* RFC8990, and should say so **
 
 (2) The IESG approval announcement includes a Document Announcement Write-Up.
 Please provide such a Document Announcement Write-Up. Recent examples can be
@@ -29,43 +30,9 @@ No.
 
 Document Quality:
 
-The use case section is well written, but it is not clear that the use cases
-are more than hypothetical.  The automotive examples definitely do not seem to
-have real-world demand at this point, and it is unclear how the an ACP/ANI
-would be formed among mutually distrustful vehicles.
-
-Section 2.3 describes various 3GPP management functions that could be performed
-with an ANI, but from reading the section, it appears that 3GPP CT has adopted
-HTTP2.0/JSON for this use, not GRASP.
-
-Section 2.4 describes In-Network Computing, but seems to lack references for
-topical things, such as "recently gets lots of attention".
-
-The case for Data Backup would seem to be an interesting ANI/ACP function, as
-it is often difficult to arrange for the an appropriate level of priviledge to
-do backups: such an interface is subject to  exploitation and attack.  A system
-that could back it self up to a dataset that could be then distributed upon
-demand (fully encrypted) by an ANI would seem like a good thing.  Backups could
-migrate from the node on which they are created through the ANI in an
-asynchronous manner, utilitizing spare bandwidth to move close to the NOC,
-where they could be placed on disconnectable storage ("tapes"). The example
-given in section 2.3, point 1) Data Backup, seems to have nothing to do with
-backups. Point (2) seems to be about Hadoop.
-
-In general, the use cases presented, aside from Data Backup as I envision it,
-do not seem to actually be relevant to an ANI and ACP. I actually said this in
-
-January 2020:
-   https://mailarchive.ietf.org/arch/msg/anima/hCv5bZxBrzSzA6BjA5DY7_RDo6U
-
-A request was made for more protocol oriented description:
-   https://mailarchive.ietf.org/arch/msg/anima/7L8SmTZXi4cI2IaE7PD0YX37WWM/
-
-section 3:
-    For reasons well-understood,
-    this approach has its limits in larger and denser networks.
-
-please cite issue and background here.
+The use case section was moved to a non-normative appendix.
+While it is well written,  the use cases are hypothetical.
+No emphasis has been made on Data Backups.
 
 I found section 4.2.1 underspecified and too abstract. Mention was made of a
 Distributed Hash Table, but more detail would certainly be needed to actually
@@ -83,7 +50,7 @@ Who is the Responsible Area Director?      Robert Wilton
 Document Shepherd. If this version of the document is not ready for
 publication, please explain why the document is being forwarded to the IESG.
 
-This -04 document was read from beginning to end.
+This -09 document was read from beginning to end.
 
 (4) Does the document Shepherd have any concerns about the depth or breadth of
 the reviews that have been performed?
@@ -106,16 +73,13 @@ the document, or has concerns whether there really is a need for it. In any
 event, if the WG has discussed those issues and has indicated that it still
 wishes to advance the document, detail those concerns here.
 
-It's not clear that the document is more than a research paper.
-Will it result in any actual running code?
-Many protocol parts that should be prescriptive are speculative, using "can"
-rather than SHOULD/MUST. No running code is mentioned.
+No running code despite 7 years that the document has been alive.
 
 (7) Has each author confirmed that any and all appropriate IPR disclosures
 required for full conformance with the provisions of <a href="/doc/bcp78/">BCP 78</a> and <a href="/doc/bcp79/">BCP 79</a> have
 already been filed. If not, explain why?
 
-Not as yet.
+Yes.
 
 (8) Has an IPR disclosure been filed that references this document? If so,
 summarize any WG discussion and conclusion regarding the IPR disclosures.
@@ -144,9 +108,7 @@ No.
 (See <a href="http://www.ietf.org/tools/idnits/">http://www.ietf.org/tools/idnits/</a> and the Internet-Drafts Checklist).
 Boilerplate checks are not enough; this check needs to be thorough.
 
-  ** The abstract seems to contain references ([<a href="/doc/rfc8990/">RFC8990</a>], [<a href="/doc/rfc7575/">RFC7575</a>]), which
-     it shouldn't.  Please replace those with straight textual mentions of the
-     documents in question.
+There are three unused references.
 
 (12) Describe how the document meets any required formal review criteria, such
 as the MIB Doctor, YANG Doctor, media type, and URI type reviews.
@@ -162,7 +124,7 @@ YEs.
 advancement or are otherwise in an unclear state? If such normative references
 exist, what is the plan for their completion?
 
-I think that <a href="/doc/rfc8994/">RFC8994</a> should be normative.
+All appear correct.
 
 (15) Are there downward normative references references (see <a href="/doc/rfc3967/">RFC 3967</a>)? If so,
 list these downward references to support the Area Director in the Last Call
@@ -196,7 +158,7 @@ As the document updates <a href="/doc/rfc8990/">RFC8990</a>, it will need to mak
 allocations. Provide any public guidance that the IESG would find useful in
 selecting the IANA Experts for these new registries.
 
-Unknown.
+None needed.
 
 (19) Describe reviews and automated checks performed by the Document Shepherd
 to validate sections of the document written in a formal language, such as XML
