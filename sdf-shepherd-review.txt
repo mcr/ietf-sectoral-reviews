@@ -1,4 +1,4 @@
-Document Shepherd Write-Up for Group Documents: draft-ietf-asdf-sdf-16
+Document Shepherd Write-Up for Group Documents: draft-ietf-asdf-sdf-18
 This version is dated 4 July 2022.
 
 Document History
@@ -44,7 +44,8 @@ None required.
 >document is needed, clearly written, complete, correctly designed, and ready
 >to be handed off to the responsible Area Director?
 
-At the time (2023-10-12), tHe document still needs a better Security Considerations.
+The security considerations section has been completed since the first
+shepherd review.
 
 > What type of RFC publication is being requested on the IETF stream (Best
 > Current Practice, Proposed Standard, Internet Standard,
@@ -77,7 +78,7 @@ No important nits.
 > Should any informative references be normative or vice-versa? See the IESG
 > Statement on Normative and Informative References.
 
-Maybe some things to fix.
+Yes.
 
 > List any normative references that are not freely available to anyone. Did
 > the community have sufficient access to review any such normative
