@@ -1,5 +1,7 @@
 Document Shepherd Write-Up for Group Documents: draft-ietf-asdf-sdf-18
-This version is dated 4 July 2022.
+(This draft template is dated 4 July 2022.)
+
+Review updated 2024-03-13.
 
 Document History
 > Does the working group (WG) consensus represent the strong concurrence of a
@@ -37,7 +39,8 @@ likely will not occur until after the RFC is published.
 > Describe how the document meets any required formal expert review criteria,
 > such as the MIB Doctor, YANG Doctor, media type, and URI type reviews.
 
-None required.
+Media type reviews for application/sdf+json and related Content-Format have
+been requested.
 
 >Document Shepherd Checks
 >Based on the shepherd's review of the document, is it their opinion that this
@@ -78,7 +81,7 @@ No important nits.
 > Should any informative references be normative or vice-versa? See the IESG
 > Statement on Normative and Informative References.
 
-Yes.
+A review has been done, and it seems correct.
 
 > List any normative references that are not freely available to anyone. Did
 > the community have sufficient access to review any such normative
