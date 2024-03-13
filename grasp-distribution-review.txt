@@ -1,3 +1,5 @@
+Version 2
+
 (1) What type of RFC is being requested (BCP, Proposed Standard, Internet
 Standard, Informational, Experimental, or Historic)? Why is this the proper
 type of RFC? Is this type of RFC indicated in the title page header?
@@ -34,12 +36,7 @@ The use case section was moved to a non-normative appendix.
 While it is well written,  the use cases are hypothetical.
 No emphasis has been made on Data Backups.
 
-I found section 4.2.1 underspecified and too abstract. Mention was made of a
-Distributed Hash Table, but more detail would certainly be needed to actually
-implement anything. The word "can" is used a lot, which is not really helpful.
-Superman *can* leap buildings in a single bound, but should he?  Sometimes the
-front door and the elevator is easier.  The document SHOULD tell me which one
-to implement.
+Section 4.2.1 (now 5.2.1) has been rewritten.
 
 Personnel:
 
@@ -51,11 +48,12 @@ Document Shepherd. If this version of the document is not ready for
 publication, please explain why the document is being forwarded to the IESG.
 
 This -09 document was read from beginning to end.
+The -10 document diff were consulted.
 
 (4) Does the document Shepherd have any concerns about the depth or breadth of
 the reviews that have been performed?
 
-The document has not received a lot of attention in the WG.
+The document has not received a lot of attention in the WG, despite 8 years.
 The document does not provide a reasonable Security Considerations examination
 of what happens with these new GRASP methods.
 
@@ -73,10 +71,10 @@ the document, or has concerns whether there really is a need for it. In any
 event, if the WG has discussed those issues and has indicated that it still
 wishes to advance the document, detail those concerns here.
 
-No running code despite 7 years that the document has been alive.
+No running code despite 8 years that the document has been alive.
 
 (7) Has each author confirmed that any and all appropriate IPR disclosures
-required for full conformance with the provisions of <a href="/doc/bcp78/">BCP 78</a> and <a href="/doc/bcp79/">BCP 79</a> have
+required for full conformance with the provisions of BCP 78 and BCP 79 have
 already been filed. If not, explain why?
 
 Yes.
@@ -85,7 +83,7 @@ Yes.
 summarize any WG discussion and conclusion regarding the IPR disclosures.
 
 One claim was made in 2016:
-<a href="https://datatracker.ietf.org/ipr/2915/">https://datatracker.ietf.org/ipr/2915/</a>
+  https://datatracker.ietf.org/ipr/2915/
 The claim relates to an unpublished patent application.
 It is now five years later, so the patent should either be visible, or the
 claim could perhaps be withdrawn.
@@ -105,10 +103,10 @@ questionnaire is publicly available.)
 No.
 
 (11) Identify any ID nits the Document Shepherd has found in this document.
-(See <a href="http://www.ietf.org/tools/idnits/">http://www.ietf.org/tools/idnits/</a> and the Internet-Drafts Checklist).
+(See http://www.ietf.org/tools/idnits/ and the Internet-Drafts Checklist).
 Boilerplate checks are not enough; this check needs to be thorough.
 
-There are three unused references.
+There are still three unused references according to nits
 
 (12) Describe how the document meets any required formal review criteria, such
 as the MIB Doctor, YANG Doctor, media type, and URI type reviews.
@@ -118,7 +116,7 @@ None.
 (13) Have all references within this document been identified as either
 normative or informative?
 
-YEs.
+Yes.
 
 (14) Are there normative references to documents that are not ready for
 advancement or are otherwise in an unclear state? If such normative references
@@ -126,7 +124,7 @@ exist, what is the plan for their completion?
 
 All appear correct.
 
-(15) Are there downward normative references references (see <a href="/doc/rfc3967/">RFC 3967</a>)? If so,
+(15) Are there downward normative references references (see RFC 3967)? If so,
 list these downward references to support the Area Director in the Last Call
 procedure.
 
@@ -149,10 +147,9 @@ any referenced IANA registries have been clearly identified. Confirm that newly
 created IANA registries include a detailed specification of the initial
 contents for the registry, that allocations procedures for future registrations
 are defined, and a reasonable name for the new registry has been suggested (see
-<a href="/doc/rfc8126/">RFC 8126</a>).
+RFC 8126).
 
-In version -04, the IANA section is still TBD.
-As the document updates <a href="/doc/rfc8990/">RFC8990</a>, it will need to make a number of IANA Actions.
+IANA Considerations seem okay in -10.
 
 (18) List any new IANA registries that require Expert Review for future
 allocations. Provide any public guidance that the IESG would find useful in
@@ -168,11 +165,10 @@ There is fragmentary CDDL, but it has not been validated.
 
 (20) If the document contains a YANG module, has the module been checked with
 any of the recommended validation tools
-(<a href="https://trac.ietf.org/trac/ops/wiki/yang-review-tools">https://trac.ietf.org/trac/ops/wiki/yang-review-tools</a>) for syntax and
-formatting validation? If there are any resulting errors or warnings, what is
+for syntax and formatting validation? If there are any resulting errors or warnings, what is
 the justification for not fixing them at this time? Does the YANG module comply
 with the Network Management Datastore Architecture (NMDA) as specified in
-<a href="/doc/rfc8342/">RFC8342</a>?
+RFC8342?
 
 No YANG module.
 
