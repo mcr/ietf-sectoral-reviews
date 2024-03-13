@@ -76,7 +76,7 @@ All seems fine.
 >authors.ietf.org. (Also note that the current idnits tool generates
 >some incorrect warnings; a rewrite is underway.)
 
-idnits has some nits, lack of IPv6, abstract needs work.
+idnits has some minor nits, but WGLC confirms WG is happy with examples.
 
 >Should any informative references be normative or vice-versa? See the IESG
 >Statement on Normative and Informative References.
@@ -95,6 +95,33 @@ None.
 
 There seem to be some downref's missing, that should have been added for
 RFC9092, but which were not.  Specifically, RFC5485, and RFC8805.
+
+from the 9092 shepherd write up:
+
+The Shepherd Review thereof says
+=====================================
+
+    (15) Are there downward normative references references (see
+         RFC 3967)?  If so, list these downward references to support
+         the Area Director in the Last Call procedure.
+
+- Downref: Normative reference to an Informational RFC: RFC 5485
+- Downref: Normative reference to an Informational RFC: RFC 8805
+
+These normative references to informative documents have been discussed with the Authors.
+I believe they will be difficult to resolve, and may mean the document sits in "proposed standard"
+pending completion of standards-track completion for these information references, or suitable
+alternatives.
+===================================================
+
+IntDir reckoned that the document should not be Standards Track
+
+Ben suggested making 8805 Standards Track
+
+The Protocol Action was 2021-05-26
+
+HTH
+
 
 > Are there normative references to documents that are not ready to be
 > submitted to the IESG for publication or are otherwise in an unclear state?
