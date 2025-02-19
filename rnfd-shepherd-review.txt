@@ -1,6 +1,21 @@
 Document Shepherd Write-Up for Group Documents
 This version is dated 4 July 2022.
 
+The WGLC for RNFD was announced and minuted (
+https://datatracker.ietf.org/doc/minutes-interim-2024-roll-03-202405221400/),
+but the formal announcement email was not sent or was not delivered to the
+WG mailing list. However, the WG was aware of the document’s progression,
+as evidenced by the “Publication Requested” email (
+https://mailarchive.ietf.org/arch/msg/roll/UbkorB6wD3eKwj2mPZtwFB1sBsE/)
+and prior discussions.
+
+Once this issue was discovered, the WG was notified (
+https://mailarchive.ietf.org/arch/msg/roll/z-gn_pCwX3QuFeQ-M0zH6g4e6QI/)
+and given the opportunity to raise any concerns during the IETF Last Call.
+No concerns were raised by WG participants (to be confirmed after the IETF
+LC concludes). Given this, the chairs, AD, and shepherd believe that the WG
+has consensus to publish.
+
 >Document History
 >Does the working group (WG) consensus represent the strong concurrence of a
 >few individuals, with others being silent, or did it reach broad agreement?
@@ -26,6 +41,8 @@ No appeals or threats of appeal.
 >plans to implement? Are any existing implementations reported somewhere,
 >either in the document itself (as RFC 7942 recommends) or elsewhere
 >(where)?
+
+The authors have done an implementation.
 
 >Additional Reviews
 >Do the contents of this document closely interact with technologies in other
@@ -75,7 +92,7 @@ No common issues.
 >Informational, Experimental or Historic)? Why is this the proper type
 >of RFC? Do all Datatracker state attributes correctly reflect this intent?
 
-Experimental.
+Proposed Standard
 
 >Have reasonable efforts been made to remind all authors of the intellectual
 >property rights (IPR) disclosure obligations described in BCP 79? To
