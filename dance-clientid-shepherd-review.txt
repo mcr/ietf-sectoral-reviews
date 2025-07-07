@@ -1,5 +1,6 @@
 Document Shepherd Write-Up for Group Documents: draft-ietf-dance-tls-clientid-02
-This version is dated 4 July 2022.
+
+This review is dated 2025-06-28.
 
 >Document History
 >Does the working group (WG) consensus represent the strong concurrence of a
